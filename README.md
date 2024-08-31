@@ -1,15 +1,16 @@
-## AirBnB Clone - MySQL
-Table of Contents
-Project Overview
-Environment Variables
-Resources
-General Concepts
-Python Scripts
-Python Unit Tests
-SQL Scripts
-Testing with MySQL
-Authors
-Project Overview
+# AirBnB Clone - MySQL
+## Table of Contents
+  Project Overview
+  Environment Variables
+  Resources
+  General Concepts
+  Python Scripts
+  Python Unit Tests
+  SQL Scripts
+  Testing with MySQL
+  Authors
+
+## Project Overview
 The AirBnB Clone - MySQL project is part of a larger effort to build a full web application similar to AirBnB. This segment of the project focuses on transitioning from file storage to database storage using MySQL, adding new functionalities and optimizing the existing codebase. This involves setting up a database, creating tables, and modifying the storage engine to use SQLAlchemy as an Object-Relational Mapping (ORM) tool.
 
 The project also emphasizes the importance of testing, particularly unit testing, and handling environment variables effectively to manage different configurations, such as development and testing environments.
@@ -44,7 +45,7 @@ Understanding *args and **kwargs is essential for writing flexible and reusable 
 Object-Relational Mapping (ORM)
 ORM is a technique for converting data between incompatible type systems using object-oriented programming languages. In this project, SQLAlchemy is used as the ORM to interact with the MySQL database.
 
-Environment Variables
+## Environment Variables
 Environment variables allow you to manage different configurations easily, such as switching between development and production environments.
 
 Python Scripts
@@ -67,7 +68,7 @@ Execute the desired action (e.g., create a new record).
 Validate the outcome by comparing the state before and after the action.
 For example, to validate that creating a new state works as expected, compare the number of records in the states table before and after the action.
 
-# Authors
+## Authors
 This project was developed by:
 
 Perrin Letembet 
