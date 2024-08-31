@@ -67,7 +67,7 @@ Execute the desired action (e.g., create a new record).
 Validate the outcome by comparing the state before and after the action.
 For example, to validate that creating a new state works as expected, compare the number of records in the states table before and after the action.
 
-Authors
+# Authors
 This project was developed by:
 
-Perrin Letembet - GitHub
+Perrin Letembet 
