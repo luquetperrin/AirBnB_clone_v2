@@ -32,41 +32,43 @@ https://docs.python.org/3/library/cmd.html
 https://docs.python.org/3/library/cmd.html
 https://docs.python.org/3/library/unittest.html
 https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/
-SQLAlchemy tutorial
-Creating a MySQL User and Granting Permissions
-Python3 and environment variables
-MySQL 8.0 SQL Statement Syntax
-General Concepts
-Unit Testing
-Unit testing is crucial for ensuring the functionality of your code. By writing tests, you can assert the current state of your objects or data, perform actions, and validate whether these actions achieve the desired outcomes.
+https://docs.sqlalchemy.org/en/13/orm/tutorial.html
+https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
+https://docs.python.org/3/library/os.html?highlight=env#os.getenv
+https://docs.sqlalchemy.org/en/13/
+https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html
 
-**args and **kwargs
+## **args and **kwargs
 Understanding *args and **kwargs is essential for writing flexible and reusable functions in Python.
 
-Object-Relational Mapping (ORM)
+## Object-Relational Mapping (ORM)
 ORM is a technique for converting data between incompatible type systems using object-oriented programming languages. In this project, SQLAlchemy is used as the ORM to interact with the MySQL database.
 
 ## Environment Variables
 Environment variables allow you to manage different configurations easily, such as switching between development and production environments.
 
-Python Scripts
-Your scripts will be interpreted/compiled on Ubuntu 20.04 LTS using Python 3.8.5.
-Follow the PEP8 style guide for your code.
-Ensure all your Python scripts are executable and well-documented.
-Python Unit Tests
-Write your unit tests using the unittest module.
-Organize your test files in a directory named tests.
-Ensure all tests pass with every storage engine (file and DB).
-SQL Scripts
-Write your SQL scripts following best practices such as using comments and uppercase keywords.
-Ensure all scripts end with a newline and are executable on Ubuntu 20.04 LTS using MySQL 8.0.
-Testing with MySQL
+## Python Scripts
+1. Your scripts will be interpreted/compiled on Ubuntu 20.04 LTS using Python 3.8.5.
+2. Follow the PEP8 style guide for your code.
+3. Ensure all your Python scripts are executable and well-documented.
+
+## Python Unit Tests
+1. Write your unit tests using the unittest module.
+2. Organize your test files in a directory named tests.
+3. Ensure all tests pass with every storage engine (file and DB).
+
+## SQL Scripts
+1. Write your SQL scripts following best practices such as using comments and uppercase keywords.
+2. Ensure all scripts end with a newline and are executable on Ubuntu 20.04 LTS
+using MySQL 8.0.
+
+## Testing with MySQL
 To test with MySQL, follow these steps:
 
-Create a specific database for testing.
-Assert the current state of the database.
-Execute the desired action (e.g., create a new record).
-Validate the outcome by comparing the state before and after the action.
+1. Create a specific database for testing.
+2. Assert the current state of the database.
+3. Execute the desired action (e.g., create a new record).
+4. Validate the outcome by comparing the state before and after the action.
 For example, to validate that creating a new state works as expected, compare the number of records in the states table before and after the action.
 
 ## Authors
