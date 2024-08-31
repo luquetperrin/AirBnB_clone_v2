@@ -1,8 +1,8 @@
 # AirBnB Clone - MySQL
 ## Table of Contents
-  Project Overview
-  Environment Variables
-  Resources
+1. Project Overview
+2. Environment Variables
+3. Resources
   General Concepts
   Python Scripts
   Python Unit Tests
