@@ -3,22 +3,22 @@
 1. Project Overview
 2. Environment Variables
 3. Resources
-  General Concepts
-  Python Scripts
-  Python Unit Tests
-  SQL Scripts
-  Testing with MySQL
-  Authors
+4. General Concepts
+5. Python Scripts
+6. Python Unit Tests
+7. SQL Scripts
+8. Testing with MySQL
+9. Authors
 
 ## Project Overview
 The AirBnB Clone - MySQL project is part of a larger effort to build a full web application similar to AirBnB. This segment of the project focuses on transitioning from file storage to database storage using MySQL, adding new functionalities and optimizing the existing codebase. This involves setting up a database, creating tables, and modifying the storage engine to use SQLAlchemy as an Object-Relational Mapping (ORM) tool.
 
 The project also emphasizes the importance of testing, particularly unit testing, and handling environment variables effectively to manage different configurations, such as development and testing environments.
 
-Environment Variables
+## Environment Variables
 To run this project successfully, you will need to configure several environment variables:
 
-HBNB_ENV: Specifies the running environment. It can be dev for development or test for testing.
+. HBNB_ENV: Specifies the running environment. It can be dev for development or test for testing.
 HBNB_MYSQL_USER: Your MySQL username.
 HBNB_MYSQL_PWD: Your MySQL password.
 HBNB_MYSQL_HOST: The hostname of your MySQL server.
