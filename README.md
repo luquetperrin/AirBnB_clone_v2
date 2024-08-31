@@ -18,16 +18,17 @@ The project also emphasizes the importance of testing, particularly unit testing
 ## Environment Variables
 To run this project successfully, you will need to configure several environment variables:
 
-. HBNB_ENV: Specifies the running environment. It can be dev for development or test for testing.
-HBNB_MYSQL_USER: Your MySQL username.
-HBNB_MYSQL_PWD: Your MySQL password.
-HBNB_MYSQL_HOST: The hostname of your MySQL server.
-HBNB_MYSQL_DB: The name of your MySQL database.
-HBNB_TYPE_STORAGE: The type of storage to use. It can be either file (using FileStorage) or db (using DBStorage).
-Resources
+a. HBNB_ENV: Specifies the running environment. It can be dev for development or b. test for testing.
+c. HBNB_MYSQL_USER: Your MySQL username.
+d. HBNB_MYSQL_PWD: Your MySQL password.
+e. HBNB_MYSQL_HOST: The hostname of your MySQL server.
+f. HBNB_MYSQL_DB: The name of your MySQL database.
+g. HBNB_TYPE_STORAGE: The type of storage to use. It can be either file (using FileStorage) or db (using DBStorage).
+
+## Resources
 To complete this project, the following resources may be helpful:
 
-cmd module
+https://docs.python.org/3/library/cmd.html
 packages concept page
 unittest module
 args/kwargs
