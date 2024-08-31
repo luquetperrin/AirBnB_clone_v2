@@ -29,9 +29,9 @@ g. HBNB_TYPE_STORAGE: The type of storage to use. It can be either file (using F
 To complete this project, the following resources may be helpful:
 
 https://docs.python.org/3/library/cmd.html
-packages concept page
-unittest module
-args/kwargs
+https://docs.python.org/3/library/cmd.html
+https://docs.python.org/3/library/unittest.html
+https://yasoob.me/2013/08/04/args-and-kwargs-in-python-explained/
 SQLAlchemy tutorial
 Creating a MySQL User and Granting Permissions
 Python3 and environment variables
